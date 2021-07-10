@@ -15,43 +15,19 @@ namespace POS_Vegetable
     {
         public frm_add_product()
         {
-            //if (language.lang=="si-LK")
-            //{
-            //    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("si-LK");
-            //}
-            //else
-            //{
-            //    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en");
-            //}
             InitializeComponent();
-
         }
 
 
         private void frm_add_product_Load(object sender, EventArgs e)
         {
-            //label27.Text = Properties.Resources.ID;
-            //Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("ur-PK");
             label1.ForeColor = Color.Blue;
             label2.ForeColor = Color.Red;
-
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //if (comboBox1.Text=="english")
-            //{
-            //    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en");
-
-            //}
-            //else if (comboBox1.Text == "urdu")
-            //{
-            //    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("ur-PK");
-
-            //}
-            //this.Controls.Clear();
-            //InitializeComponent();
-
+            
         }
 
         private void btn_new_equipment_Click(object sender, EventArgs e)
