@@ -2,9 +2,7 @@
 1-using System.Windows.Forms;
 2- Write Code onClick Event of controle
 
-
-
- private void label2_MouseClick(object sender, MouseEventArgs e)
+private void label2_MouseClick(object sender, MouseEventArgs e)
         {
             ContextMenu mnu = new ContextMenu();
             System.Windows.Forms.MenuItem mnuCopy = new System.Windows.Forms.MenuItem("Eng");
